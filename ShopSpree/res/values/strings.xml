@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shop Spree</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ToggleButton">On/Off</string>
+    <string name="GetJson">GetJson</string>
+    <string name="DevProd">Localhost server...</string>
+    <string name="ClearJson">ClearJson</string>
+    <string name="JsonString">JsonString</string>
+    <string name="NoData">No Data</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_summary">User summary</string>
+    <string name="password_summary">Password summary</string>
+    <string name="ipaddress">IP address</string>
+    <string name="IPAddress">IP address</string>
+
+	<!-- Host server -->
+    <string name="emulated">Emulated</string>
+    <string name="viausb">Via USB</string>
+    <string name="rhcloud">RHCLOUD</string>
+    
+    <string name="default_value_list_preference">Default</string>
+    <string name="title_list_preference">Host server</string>
+    <string name="summary_list_preference">pick host server to use</string>
+    <string name="dialog_title_list_preference">Dialog</string>
+    
+    <string name="single_product">Product Detail</string>
+
+</resources>

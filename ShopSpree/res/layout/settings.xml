@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" >
+    
+	<EditTextPreference
+	android:key="username"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:summary="@string/username_summary"
+	android:title="@string/username" />
+	<EditTextPreference
+	android:inputType="textPassword"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:title="@string/password"
+	android:key="password" android:summary="@string/password_summary"/>
+	
+	<EditTextPreference
+	android:key="ipaddress"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:summary="@string/ipaddress"
+	android:text="192.168.xx.xx"
+	android:title="@string/IPAddress" />
+		
+    <ListPreference
+            android:key="host_list"
+            android:defaultValue="@string/default_value_list_preference"
+            android:title="@string/title_list_preference"
+            android:summary="@string/summary_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="@string/dialog_title_list_preference" />
+	
+	
+</PreferenceScreen>

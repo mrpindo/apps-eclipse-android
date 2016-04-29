@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+    
+        
+    <TextView
+        	android:id="@+id/mText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Beat me" />
+    
+    
+    <TextView
+          android:id="@+id/test_number"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           />
+    
+    <TextView
+          android:id="@+id/test_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Test Ujian SIM"
+           />
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/buttonr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+</LinearLayout>

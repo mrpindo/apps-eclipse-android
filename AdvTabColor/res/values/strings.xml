@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TokoeBlanja</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+    
+    <string name="tab_stream">Stream</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tab_products">Products</string>
+    <string name="tab_getjson">GetJson</string>
+
+    <string name="ToggleButton">On/Off</string>
+    <string name="GetJson">GetJson</string>
+    <string name="DevProd">Localhost server...</string>
+    <string name="ClearJson">ClearJson</string>
+    <string name="JsonString">JsonString</string>
+    
+    <string name="NoData">No Data</string>
+    <string name="progressbar_4_toggle">Toggle Indeterminate</string>
+        
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+            A more advanced sample which shows how to use SlidingTabLayout to display a custom
+            ViewPager title strip, with custom coloring for each tab.
+            
+        
+        ]]>
+    </string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_summary">User summary</string>
+    <string name="password_summary">Password summary</string>
+    <string name="ipaddress">IP address, applicable when connected using ViaUSB host server</string>
+    <string name="IPAddress">IP address</string>
+
+	<!-- Host server -->
+    <string name="emulated">Emulated</string>
+    <string name="viausb">Via USB</string>
+    <string name="rhcloud">RHCLOUD</string>
+    
+    <string name="default_value_list_preference">1</string>
+    <string name="title_list_preference">Host server</string>
+    <string name="summary_list_preference">pick host server to use</string>
+    <string name="dialog_title_list_preference">Host server choice</string>
+    
+    <string name="single_product">Product Detail</string>
+
+</resources>

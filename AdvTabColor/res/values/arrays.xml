@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entries_list_preference">
+        <item>Emulated</item>
+        <item>Via USB</item>
+        <item>RHCLOUD</item>  
+    </string-array>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entryvalues_list_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>  
+    </string-array>
+
+
+</resources>

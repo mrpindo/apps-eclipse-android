@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:paddingLeft="8dp"
+         android:paddingRight="8dp">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+		<com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Image stays here"
+            android:src="@drawable/dcklogo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#166CED"
+                android:text="Product name"/>
+
+			<TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:text="Product price" />
+			
+            <TextView
+                android:id="@+id/sku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:text="Product SKU" />
+                        
+			<TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:text="Product quantity" />
+
+			<TextView
+                android:id="@+id/imgurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:text="" />
+			
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#009A57"
+        android:text="Description" />
+
+
+        
+
+ </LinearLayout>
+

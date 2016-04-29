@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:paddingLeft="8dp"
+         android:paddingRight="8dp">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/dcklogo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#166CED"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/imgthumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"/>
+
+            <TextView
+                android:id="@+id/imgfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDescriptionn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#009A57"
+        android:text="Description" />
+
+
+        
+
+ </LinearLayout>
+

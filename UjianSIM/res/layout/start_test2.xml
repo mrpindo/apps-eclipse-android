@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonb"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttonr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttond"
+        android:layout_alignBottom="@+id/buttond"
+        android:layout_centerHorizontal="true"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttond"
+        android:layout_alignLeft="@+id/buttond"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonb"
+        android:layout_alignBottom="@+id/buttonb"
+        android:layout_alignParentLeft="true"
+        android:text="A" />
+
+    <TextView
+        android:id="@+id/test_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonr"
+        android:text="Test Ujian SIM" />
+
+    <TextView
+        android:id="@+id/mText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/test_name"
+        android:layout_marginTop="35dp"
+        android:text="Beat me" />
+
+    <TextView
+        android:id="@+id/test_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttona" />
+
+</RelativeLayout>
