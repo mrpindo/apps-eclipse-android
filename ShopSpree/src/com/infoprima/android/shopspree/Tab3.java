@@ -42,7 +42,7 @@ public class Tab3 extends Fragment implements OnClickListener {
 
 	//default to localhost (http://10.0.2.2:8000/)
 	String mUrl = "http://10.0.2.2:8000/api/product/";	
-	String mUser = "padangcuisine@gmail.com";
+	String mUser = "myauth";
 	String mPassword = "password";
 
 		
@@ -64,15 +64,15 @@ public class Tab3 extends Fragment implements OnClickListener {
 		        	String message = "RHCLOUD server...";
 		            textView1.setText(message);
 		        	mUrl = "https://estore-drindo.rhcloud.com/api/product/";	
-		        	mUser = "padangcuisine@gmail.com";
-		        	mPassword = "password123";
+		        	mUser = "myauth";
+		        	mPassword = "mypassword";
 				} else {
 		        	String message = "Localhost server...";
 		            textView1.setText(message);
 		            
 		        	mUrl = "http://10.0.2.2:8000/api/product/";	
-		        	mUser = "padangcuisine@gmail.com";
-		        	mPassword = "password";
+		        	mUser = "myauth";
+		        	mPassword = "mypassword";
 				}
 			}
         });
