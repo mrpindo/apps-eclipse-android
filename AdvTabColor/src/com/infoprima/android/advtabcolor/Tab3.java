@@ -49,13 +49,13 @@ public class Tab3 extends ListFragment  {
 
 	//private String mUrl = "http://10.0.2.2:8000/api/product/";	
 	private String mUrl = "";	
-	private String mUser = "padangcuisine@gmail.com";
-	private String mPassword = "password";
+	private String mUser = "myauth";
+	private String mPassword = "mypassword";
 	
 	/*RHCLOUD
 	private String mUrl = "https://estore-drindo.rhcloud.com/api/product/";	
-	private String mUser = "padangcuisine@gmail.com";
-	private String mPassword = "password123";
+	private String mUser = "myauth";
+	private String mPassword = "mypassword";
 	*/
 
 	private List<Product> productList = new ArrayList<Product>();
